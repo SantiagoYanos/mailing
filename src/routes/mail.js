@@ -1,36 +1,49 @@
-import {Router} from "express"
-import { sendMail } from "../utils/mail.js"
-import fs from "fs"
+import { Router } from "express";
+import { sendMail } from "../utils/mail.js";
+import fs from "fs";
 
-const router = Router()
+const router = Router();
+
+const mailFile = "src/data/mail.json";
 
 router
-    .get("/", (req, res) => {
-        const data = fs.readFileSync("mail.json", "utf-8")
-        res.json(JSON.parse(data))
-    })
+  .get("/", (req, res) => {
+    const data = fs.readFileSync(mailFile, "utf-8");
+    res.json(JSON.parse(data));
+  })
 
-    .post("/", async (req, res) => {
-        const mail = req.body
-        const { from, to, subject, text, html } = mail
+  /*
+    {
+    "from": "Santiago@gmail.com",
+    "to": "Roberto@gmail.com",
+    "subject": "Titulo del email",
+    "text": "Este es un mail",
+    "html": "<b>jaja</b>"
+    }
 
-        if(!from || !to || !subject || !text || !html) {
-            return res.status(400).send("Faltan datos")
-        }
+  */
 
-        const sentMail = await sendMail({ from, to, subject, text, html })
+  .post("/", async (req, res) => {
+    const mail = req.body;
+    const { from, to, subject, text, html } = mail;
 
-        if(sentMail) {
-            if(fs.existsSync("mail.json")) {
-                const mails = JSON.parse(fs.readFileSync("mail.json", "utf-8"))
-                mails.push(sentMail)
-                fs.writeFileSync("mail.json", JSON.stringify(mails))
-            } else {
-                fs.writeFileSync("mail.json", JSON.stringify([sentMail]))
-            }
-        }
+    if (!from || !to || !subject || !text || !html) {
+      return res.status(400).send("Faltan datos");
+    }
 
-        res.status(201).send("Mail enviado exitosamente!")
-    })
+    const sentMail = await sendMail({ from, to, subject, text, html });
 
-export default router
+    if (sentMail) {
+      if (fs.existsSync(mailFile)) {
+        const mails = JSON.parse(fs.readFileSync(mailFile, "utf-8"));
+        mails.push(sentMail);
+        fs.writeFileSync(mailFile, JSON.stringify(mails));
+      } else {
+        fs.writeFileSync(mailFile, JSON.stringify([sentMail]));
+      }
+    }
+
+    res.status(201).send("Mail enviado exitosamente!");
+  });
+
+export default router;
