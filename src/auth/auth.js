@@ -1,5 +1,4 @@
 import bcrypt from "../utils/encrypt.js";
-
 import userDB from "../database/usersDB.js";
 
 function Register(user) {
@@ -15,8 +14,6 @@ function Register(user) {
     user.password = bcrypt.generateHash(String(user.password));
 
     userDB.addUser(user);
-
-    //JS token
 
     return user;
   }
@@ -36,8 +33,6 @@ function Login(user) {
       String(user.password),
       userFind.password
     );
-
-    console.log(decrypted);
 
     if (decrypted) {
       return userFind;

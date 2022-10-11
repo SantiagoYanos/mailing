@@ -1,8 +1,11 @@
 import { Router } from "express";
+import dotenv from "dotenv";
+import jwt from "jsonwebtoken";
 
 import auth from "../auth/auth.js";
 
 const router = Router();
+dotenv.config();
 
 router
   .get("/login", (req, res) => {
@@ -31,6 +34,18 @@ router
         message: "No user found with that username/password",
       });
     }
+
+    //----------------------------------------- Crea Cookie
+
+    const newToken = jwt.sign(
+      { data: { email: loginUser.email } },
+      process.env.SECRET_KEY,
+      { expiresIn: "1h" }
+    );
+
+    res.cookie("token", newToken, { expire: "1h" });
+
+    //-----------------------------------------
 
     return res.status(200).json({
       status: "OK",
@@ -64,6 +79,18 @@ router
         .status(400)
         .json({ status: "ERROR", message: "Username already in use!" });
     }
+
+    //-------------------------------------------- Crea Cookie
+
+    const newToken = jwt.sign(
+      { data: { email: registerResult.email } },
+      process.env.SECRET_KEY,
+      { expiresIn: "1h" }
+    );
+
+    res.cookie("token", newToken, { expire: "1h" });
+
+    //--------------------------------------------
 
     return res.status(201).json({
       status: "OK",
