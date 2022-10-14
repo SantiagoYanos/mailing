@@ -8,6 +8,16 @@ export function userJoin(id, username, room) {
   return user;
 }
 
+export function changeRoomUser(id, room) {
+  return users.map((user) => {
+    if (user.id === id) {
+      user.room = room;
+    }
+
+    return user;
+  });
+}
+
 export function getCurrentUser(id) {
   return users.find((user) => {
     user.id === id;

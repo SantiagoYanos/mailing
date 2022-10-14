@@ -1,11 +1,13 @@
 console.log("Prueba prueba");
 
-const newRoomButton = document.getElementById("newRoom");
-
 console.log("Ui detectada");
+
+const newRoomButton = document.getElementById("newRoom");
+const usernameInput = document.getElementById("username");
+
+newConnection(usernameInput.value);
 
 newRoomButton.addEventListener("click", () => {
   const roomName = document.getElementById("roomName");
-  const usernameInput = document.getElementById("username");
   joinRoom(usernameInput.value, roomName.value);
 });

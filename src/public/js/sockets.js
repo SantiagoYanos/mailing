@@ -1,7 +1,11 @@
 const socket = io.connect(); //Se conecta al servidor
 
-socket.on("loadrooms", () => {
-  console.log(io.rooms);
+function newConnection(username) {
+  socket.emit("client:newConnection", { username });
+}
+
+socket.on("server:loadRooms", (rooms) => {
+  console.log(rooms);
 });
 
 socket.on("roomUsers", ({ room, users }) => {

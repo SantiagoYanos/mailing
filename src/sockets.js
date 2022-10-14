@@ -5,28 +5,39 @@ import {
   userLeave,
 } from "./utils/users.js";
 
+import { getAllRooms, addRoom, deleteRoom } from "./utils/rooms.js";
+
 import { decryptWord } from "./utils/encryptUsername.js";
 
 export function Sockets(io) {
   io.on("connection", (socket) => {
     //Cuando alguien entra al server...
-    console.log("Nuevo cliente conectado");
+    console.log("Nuevo cliente conectado " + socket.id);
     //console.log(socket);
 
-    socket.emit("newUser", {});
+    socket.on("client:newConnection", ({ username }) => {
+      username = decryptWord(username);
+      socket.join("lobby");
 
-    socket.emit("loadrooms");
+      const user = userJoin(socket.id, username); //Crea y agrega el usuario a un array de usuarios.
+    });
+
+    socket.on("client:loadRooms", () => {
+      socket.emit("server:loadRooms", socket.rooms);
+    });
 
     socket.on("joinRoom", ({ username, room }) => {
       //Cuando alguien entra a una sala
 
       username = decryptWord(username);
 
-      const user = userJoin(socket.id, username, room); //Crea y agrega el usuario a un array de usuarios.
+      socket.join(room); //Agrega el socket del usuario a la room
 
-      socket.join(user.room); //Agrega el socket del usuario a la room
+      socket.emit("server:loadRooms", socket.rooms);
 
-      socket.emit("loadrooms");
+      console.log(socket.rooms);
+
+      //socket.emit("loadrooms");
 
       // socket.emit(
       //   //Emite un mensaje de parte del "indicando" que x usuario ingresó a la sala
