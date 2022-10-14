@@ -1,9 +1,7 @@
 const rooms = new Set();
 
-rooms.add("lobby");
-
 export function getAllRooms() {
-  return rooms;
+  return Array.from(rooms);
 }
 
 export function addRoom(roomName) {

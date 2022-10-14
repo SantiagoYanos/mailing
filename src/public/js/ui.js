@@ -11,3 +11,17 @@ newRoomButton.addEventListener("click", () => {
   const roomName = document.getElementById("roomName");
   joinRoom(usernameInput.value, roomName.value);
 });
+
+function loadRoomList(rooms) {
+  const chatBox = document.getElementById("chatBox");
+
+  let chatList = "<ol>";
+
+  rooms.forEach((room) => {
+    chatList += "<il>" + room + "</il>";
+  });
+
+  chatList += "</ol>";
+
+  chatBox.innerHTML = chatList;
+}

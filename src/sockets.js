@@ -23,7 +23,7 @@ export function Sockets(io) {
     });
 
     socket.on("client:loadRooms", () => {
-      socket.emit("server:loadRooms", socket.rooms);
+      socket.emit("server:loadRooms", { rooms: getAllRooms() });
     });
 
     socket.on("joinRoom", ({ username, room }) => {
