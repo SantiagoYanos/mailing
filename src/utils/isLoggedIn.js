@@ -4,21 +4,21 @@ import { token } from "morgan";
 
 dotenv.config();
 
-function isLoggedIn() {
-  if (!req.cookies.token) {
+function isLoggedIn(req, res, next) {
+  let token = req.cookies.token;
+
+  if (!token) {
     return res.redirect("/auth/login");
   }
 
-  token = req.cookies.token;
-
-  user = jwt.verify(token, process.env.SECRET_KEY); //Verificamos el token
+  let user = jwt.verify(token, process.env.SECRET_KEY); //Verificamos el token
 
   if (user) {
     req.user = user;
 
-    const newToken = jwt.sign({ data: user }, process.env.SECRET_KEY, {
+    const newToken = jwt.sign({ data: user.data }, process.env.SECRET_KEY, {
       expiresIn: "1h",
-    }); //Actualizamos el token
+    }); //Se actualiza el token
 
     res.cookie("token", newToken, { expire: "1h" });
 

@@ -6,8 +6,8 @@ const generateHash = (password) => {
   return hash;
 };
 
-const validatePassword = function (password, encrypted) {
-  return bcrypt.compareSync(password, encrypted);
+const validatePassword = function (original, encrypted) {
+  return bcrypt.compareSync(original, encrypted);
 };
 
 export default {

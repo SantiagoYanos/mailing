@@ -1,7 +1,7 @@
 import app from "./app.js";
 import dotenv from "dotenv";
 import { Server as WebSocketServer } from "socket.io";
-import Sockets from "./sockets.js";
+import { Sockets } from "./sockets.js";
 import http from "http";
 
 dotenv.config();

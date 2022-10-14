@@ -1,4 +1,4 @@
-import bcrypt from "../utils/encrypt.js";
+import bcrypt from "../utils/encryptPassword.js";
 import userDB from "../database/usersDB.js";
 
 function Register(user) {

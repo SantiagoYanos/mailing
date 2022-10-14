@@ -1,6 +1,7 @@
 import { Router } from "express";
 import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
+import { encryptWord } from "../utils/encryptUsername.js";
 
 import auth from "../auth/auth.js";
 
@@ -9,7 +10,7 @@ dotenv.config();
 
 router
   .get("/login", (req, res) => {
-    res.send("Login");
+    res.render("login");
   })
 
   .post("/login", (req, res) => {
@@ -36,9 +37,13 @@ router
     }
 
     //----------------------------------------- Crea Cookie
-
     const newToken = jwt.sign(
-      { data: { email: loginUser.email } },
+      {
+        data: {
+          username: loginUser.username,
+          encryptedUsername: encryptWord(loginUser.username),
+        },
+      },
       process.env.SECRET_KEY,
       { expiresIn: "1h" }
     );
@@ -47,11 +52,7 @@ router
 
     //-----------------------------------------
 
-    return res.status(200).json({
-      status: "OK",
-      message: "User logged succesfully!",
-      data: loginUser,
-    });
+    return res.status(200).redirect("/chat/");
   })
 
   .get("/register", (req, res) => {
