@@ -18,7 +18,7 @@ function loadRoomList(rooms) {
   let chatList = "<ol>";
 
   rooms.forEach((room) => {
-    chatList += "<il>" + room + "</il>";
+    chatList += "<li>" + room + "</li>";
   });
 
   chatList += "</ol>";

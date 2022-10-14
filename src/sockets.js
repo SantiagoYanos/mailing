@@ -33,7 +33,9 @@ export function Sockets(io) {
 
       socket.join(room); //Agrega el socket del usuario a la room
 
-      socket.emit("server:loadRooms", socket.rooms);
+      addRoom(room);
+
+      socket.emit("server:loadRooms", { rooms: getAllRooms() });
 
       console.log(socket.rooms);
 
