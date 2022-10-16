@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { sendMail } from "../utils/mail.js";
 import fs from "fs";
+import { logMail } from "../utils/logs.js";
 
 const router = Router();
 
@@ -38,8 +39,10 @@ router
         const mails = JSON.parse(fs.readFileSync(mailFile, "utf-8"));
         mails.push(sentMail);
         fs.writeFileSync(mailFile, JSON.stringify(mails));
+        logMail(JSON.stringify([sentMail]));
       } else {
         fs.writeFileSync(mailFile, JSON.stringify([sentMail]));
+        logMail(JSON.stringify([sentMail]));
       }
     }
 

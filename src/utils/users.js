@@ -1,6 +1,6 @@
 const users = []; //Lista de todos los usuarios conectados
 
-export function userJoin(id, username, room) {
+export async function userJoin(id, username, room) {
   const user = { id, username, room };
 
   users.push(user);
@@ -8,7 +8,11 @@ export function userJoin(id, username, room) {
   return user;
 }
 
-export function changeRoomUser(id, room) {
+export async function getAllUsers() {
+  return users;
+}
+
+export async function changeRoomUser(id, room) {
   return users.map((user) => {
     if (user.id === id) {
       user.room = room;
@@ -18,24 +22,33 @@ export function changeRoomUser(id, room) {
   });
 }
 
-export function getCurrentUser(id) {
+export async function findUser(username) {
   return users.find((user) => {
-    user.id === id;
+    return user.username === username;
   });
 }
 
-export function userLeave(id) {
+export async function getCurrentUser(id) {
+  const encontrar = users.find((user) => {
+    return user.id === id;
+  });
+
+  return encontrar;
+}
+
+export async function userLeave(id) {
   const index = users.findIndex((user) => {
-    user.id === id;
+    return user.id === id;
   });
 
   if (index !== -1) {
     return users.splice(index, 1)[0]; //Quita y retorna el usuario que se desconectó.
   }
+  return null;
 }
 
-export function getRoomUsers(room) {
+export async function getRoomUsers(room) {
   return users.filter((user) => {
-    user.room === room;
+    return user.room === room;
   });
 }

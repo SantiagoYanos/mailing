@@ -1,13 +1,17 @@
 const rooms = new Set();
 
-export function getAllRooms() {
+export async function getAllRooms() {
   return Array.from(rooms);
 }
 
-export function addRoom(roomName) {
+export async function addRoom(roomName) {
   rooms.add(roomName);
+
+  return roomName;
 }
 
-export function deleteRoom(roomName) {
+export async function deleteRoom(roomName) {
   rooms.delete(roomName);
+
+  return roomName;
 }

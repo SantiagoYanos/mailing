@@ -18,12 +18,12 @@ function getOneUser(username) {
     return null;
   }
 
-  users.filter((user) => {
+  const findUser = users.find((user) => {
     return user.username === username;
   });
 
-  if (users.length > 0) {
-    return users[0];
+  if (findUser) {
+    return findUser;
   } else {
     return null;
   }

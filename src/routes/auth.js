@@ -56,7 +56,7 @@ router
   })
 
   .get("/register", (req, res) => {
-    res.send("Register");
+    res.render("Register");
   })
 
   .post("/register", (req, res) => {

@@ -1,22 +1,24 @@
-import nodemailer from "nodemailer"
+import nodemailer from "nodemailer";
+import dotenv from "dotenv";
 
-const user = await nodemailer.createTestAccount()
+dotenv.config();
+
+const user = await nodemailer.createTestAccount();
 
 const transporter = nodemailer.createTransport({
-    host: "smtp.ethereal.email",
-    port: 587,
-    secure: false,
-    auth: {
-      user: user.user,
-      pass: user.pass
-    }
-})
+  host: "smtp.gmail.com",
+  port: 465,
+  auth: {
+    user: process.env.GMAIL_ACCOUNT,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
 export const sendMail = async (mail) => {
-    const sentMail = await transporter.sendMail(mail)
+  const sentMail = await transporter.sendMail(mail);
 
-    console.log(`Message sent:${sentMail.messageId}`)
-    console.log(`Preview URL:${nodemailer.getTestMessageUrl(sentMail)}`)
+  console.log(`Message sent:${sentMail.messageId}`);
+  console.log(`Preview URL:${nodemailer.getTestMessageUrl(sentMail)}`);
 
-    return sentMail
-}
+  return sentMail;
+};

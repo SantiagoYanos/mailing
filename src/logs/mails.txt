@@ -1,0 +1,2 @@
+[{"accepted":["shaknerxd@gmail.com"],"rejected":[],"envelopeTime":695,"messageTime":873,"messageSize":570,"response":"250 2.0.0 OK  1665962235 x12-20020a056808144c00b0035486165f4csm3951682oiv.37 - gsmtp","envelope":{"from":"Santiago@gmail.com","to":["shaknerxd@gmail.com"]},"messageId":"<268f63d1-0bd9-1e64-099e-9efce9e5d158@gmail.com>"}]
+

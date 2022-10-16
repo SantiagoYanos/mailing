@@ -1,14 +1,10 @@
 
-    <input id="username" type="hidden" value={{encryptedUsername}}>
 
-    <button id="newRoom">Crear nueva room</button>
-    <input id="roomName" type="text" placeholder="Room name"></input> <!-- Crea y conecta el usuario a una room -->
+    <input id="username" type="hidden" value={{encryptedUsername}}>
+   
 
     <div id="chatBox" name="chatBox"> <!-- Va a variar entre la lista de rooms y el chat de una room -->
-        <ul>
-            <!-- Cada li va a ser una room diferente -->
-            <li>Room 1</li><button type="button">Entrar Room</button>
-        </ul>
+     
     </div>
 
     Estas en el chat
@@ -16,4 +12,6 @@
     
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/sockets.js"></script>
+    <script src="/js/chatViews.js"></script>
     <script src="/js/ui.js"></script>
+    

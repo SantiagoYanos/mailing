@@ -1,31 +1,50 @@
 const socket = io.connect(); //Se conecta al servidor
 
+//------------------------------------------------------ Carga la lista de salas (Cuando carga la pantalla en un principio)
+
 socket.emit("client:loadRooms");
 
-function newConnection(username) {
-  socket.emit("client:newConnection", { username });
-}
+//------------------------------------------------------ Carga la lista de salas
 
 socket.on("server:loadRooms", ({ rooms }) => {
   loadRoomList(rooms);
 });
 
-socket.on("roomUsers", ({ room, users }) => {
-  console.log(room);
+//----------------------------------------------------- Actualiza la lista de usuarios de la sala
 
+socket.on("server:roomUsers", ({ room, users }) => {
+  console.log(room);
   console.log(users);
 });
 
-socket.on("message", (message) => {
-  console.log(message);
+//--------------------------------------------------- Recibir un mensaje
+
+socket.on("server:message", (message) => {
+  newMessage(message);
 });
 
-function joinRoom(username, room) {
-  console.log("Se creó una sala nueva");
+//------------------------------------------------------ Se ejecuta cuando alguien ingresa al servidor.
 
-  socket.emit("joinRoom", { username, room });
+function newConnection(username) {
+  socket.emit("client:newConnection", { username });
 }
 
+//--------------------------------------------------- Crear una sala nueva
+
+function joinRoom(room) {
+  console.log("Se creó una sala nueva");
+
+  socket.emit("client:joinRoom", { room });
+}
+
+//--------------------------------------------------- Salir de una sala
+
+function leaveRoom() {
+  socket.emit("client:leaveRoom");
+}
+
+//-------------------------------------------------- Enviar nuevo mensaje
+
 function sendMessage(msg) {
-  socket.emit("chatMessage", msg);
+  socket.emit("client:chatMessage", msg);
 }
