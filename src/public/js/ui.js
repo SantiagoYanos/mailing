@@ -17,8 +17,11 @@ function loadRoomList(rooms) {
 
   newRoomButton.addEventListener("click", () => {
     const roomName = document.getElementById("roomName");
-    joinRoom(roomName.value);
-    loadChatRoom();
+
+    if (roomName.value != "") {
+      joinRoom(roomName.value);
+      loadChatRoom();
+    }
   });
 
   rooms.forEach((room) => {
@@ -53,7 +56,7 @@ function newMessage(msg) {
   const chatWindow = document.getElementById("messagesWindow");
 
   const message =
-    `<ul style="margin-bottom: 10px"> <li> ${msg.username} - ${msg.time} </li>` +
+    `<ul style="margin-bottom: 10px; overflow-wrap: break-word;"> <li> ${msg.username} - ${msg.time} </li>` +
     `<li> ${msg.text} </li> </ul>`;
 
   chatWindow.innerHTML += message;
