@@ -29,7 +29,7 @@ function roomListView(rooms) {
   let chatList = `
   
   <div class="input-field inline">
-  <input id="roomName" type="text" placeholder="New Room"></input>
+  <input id="roomName" type="text" placeholder="New Room" required></input>
   </div>
 
   <a id="newRoom" style="margin-left: 25px" class="btn-floating btn-medium waves-effect waves-light purple"><i class="material-icons">add</i></a>

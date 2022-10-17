@@ -67,6 +67,8 @@ function sendMessageButton() {
   const text = messageText.value;
 
   sendMessage(text);
+
+  messageText.value = "";
 }
 
 //---------------------------------------------------------------------

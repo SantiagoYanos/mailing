@@ -2,3 +2,5 @@
 
 [{"accepted":["example@gmail.com"],"rejected":[],"envelopeTime":734,"messageTime":714,"messageSize":530,"response":"250 2.0.0 OK  1666011402 a38-20020a05687046a600b0013191fdeb9bsm4860882oap.38 - gsmtp","envelope":{"from":"","to":["example@gmail.com"]},"messageId":"<4e2a3cc3-edf9-6cce-9b56-f45a50d0fcc0@localhost>"}]
 
+[{"accepted":["a@gmail.com"],"rejected":[],"envelopeTime":807,"messageTime":935,"messageSize":508,"response":"250 2.0.0 OK  1666016647 r6-20020a9d7cc6000000b0066192cb6ccfsm4773166otn.77 - gsmtp","envelope":{"from":"","to":["a@gmail.com"]},"messageId":"<fdac576e-e520-4f08-d6d5-0003449dd028@localhost>"}]
+
