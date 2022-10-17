@@ -41,6 +41,8 @@ export function logMessage(message, room) {
 //   }
 // }
 
+//asdasd
+
 export function logMail(mail) {
   if (fs.existsSync("./src/logs/mails.txt")) {
     fs.appendFileSync("./src/logs/mails.txt", mail + "\n\n");
