@@ -1234,3 +1234,15 @@ Server:
      Achuapanqui has left the room
 - 1666006384728 | asd
 
+Server: 
+     Achuapanqui has joined the room
+- 1666011420879 | asd123
+
+Server: 
+     Achuapanqui has left the room
+- 1666011422537 | asd123
+
+Server: 
+     Achuapanqui has joined the room
+- 1666011475507 | asd
+

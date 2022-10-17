@@ -2,19 +2,31 @@
 <link rel="stylesheet" href="/css/new-mail.css">
 
 <div class="main-container">
-    <form action="/auth/login" method="post">
-        <div style="font-size: 35px; color: violet; margin-top: 10px">New Mail</div>
+    <form action="/mail/" method="post">
+        <div style="font-size: 35px; margin-top: 10px;">New Mail</div>
+
         <div class="input-field text-field"> 
-        <input type="text" id="username" name="username" style="text-align:center" placeholder="Username"><br>
+        <input type="text" id="from" name="from" style="text-align:center" placeholder="from"><br>
+        </div>
+
+        <div class="input-field text-field"> 
+        <input type="text" id="to" name="to" style="text-align:center" placeholder="to"><br>
+        </div>
+
+        <div class="input-field text-field"> 
+        <input type="text" id="subject" name="subject" style="text-align:center" placeholder="subject"><br>
+        </div>
+
+        <div class="input-field text-field"> 
+        <textarea id="text" name="text" style="text-align:center; overflow-wrap: break-word;" class="materialize-textarea" placeholder="text"></textarea><br>
+        </div>
+
+        <div class="input-field text-field"> 
+        <input type="text" id="html" name="html" style="text-align:center" placeholder="html"><br>
         </div>
         
-        <div class="input-field text-field">
-        <input class="input-field" type="password" id="password" name="password" style="text-align:center" placeholder="Password">
-        </div>
-        <button class="waves-effect waves-light btn purple darken-2">Log-in</button>
+        <button class="waves-effect waves-light btn purple lighten-2" style="margin-bottom: 20px">Send Mail</button>
         <br>
-        <br>
-        Don't have an account? <a href="/auth/register" style="margin-bottom: 10px;">Sign-Up</a>
 
     </form>
 </div>

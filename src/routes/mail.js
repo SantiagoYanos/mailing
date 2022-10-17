@@ -9,8 +9,7 @@ const mailFile = "src/data/mail.json";
 
 router
   .get("/", (req, res) => {
-    const data = fs.readFileSync(mailFile, "utf-8");
-    res.json(JSON.parse(data));
+    res.render("new-mail");
   })
 
   /*
@@ -23,6 +22,11 @@ router
     }
 
   */
+
+  .get("/mailList", (req, res) => {
+    const data = fs.readFileSync(mailFile, "utf-8");
+    res.json(JSON.parse(data));
+  })
 
   .post("/", async (req, res) => {
     const mail = req.body;

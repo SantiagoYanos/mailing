@@ -34,7 +34,7 @@
     margin-top: 25px;
 
     border-style: solid;
-    border-color: black;
+    border-color: rgb(41, 0, 41);
     border-width: thick;
     border-radius: 1%;
 }
@@ -43,8 +43,8 @@
     width: 80%;
     height: 85%;
 
-    border-right: thin solid black;
-    border-bottom: thin solid black;
+    border-right: thin solid purple;
+    border-bottom: thin solid purple;
     overflow: scroll;
 }
 
