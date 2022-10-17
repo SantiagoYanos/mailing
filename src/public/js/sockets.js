@@ -13,8 +13,7 @@ socket.on("server:loadRooms", ({ rooms }) => {
 //----------------------------------------------------- Actualiza la lista de usuarios de la sala
 
 socket.on("server:roomUsers", ({ room, users }) => {
-  console.log(room);
-  console.log(users);
+  UpdateUserList(users);
 });
 
 //--------------------------------------------------- Recibir un mensaje

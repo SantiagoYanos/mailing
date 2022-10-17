@@ -75,7 +75,7 @@ export function Sockets(io) {
         io.to(room).emit("server:roomUsers", {
           //Le envía el evento "roomUsers" a todos los usuarios de la sala del usuario que ingresó
           room: room,
-          users: getRoomUsers(room), //Se obtienen los usuarios de la sala
+          users: await getRoomUsers(room), //Se obtienen los usuarios de la sala
         });
 
         io.to("lobby").emit("server:loadRooms", { rooms: await getAllRooms() });

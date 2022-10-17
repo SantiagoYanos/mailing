@@ -20,6 +20,13 @@ function loadRoomList(rooms) {
     joinRoom(roomName.value);
     loadChatRoom();
   });
+
+  rooms.forEach((room) => {
+    document.getElementById(room).addEventListener("click", () => {
+      joinRoom(room);
+      loadChatRoom();
+    });
+  });
 }
 
 //------------------------------------------------------------------------------------------ Cargar cuadrado de Chat al unirse a una sala
@@ -45,14 +52,11 @@ function loadChatRoom() {
 function newMessage(msg) {
   const chatWindow = document.getElementById("messagesWindow");
 
-  chatWindow.innerHTML += "<ul>";
-
   const message =
-    `<li> ${msg.username} - ${msg.time} </li>` + `<li> ${msg.text} </li>`;
+    `<ul style="margin-bottom: 10px"> <li> ${msg.username} - ${msg.time} </li>` +
+    `<li> ${msg.text} </li> </ul>`;
 
   chatWindow.innerHTML += message;
-
-  chatWindow.innerHTML += "</ul>";
 }
 
 //-------------------------------------------------------------------- Envío de mensaje a la sala
@@ -67,8 +71,14 @@ function sendMessageButton() {
 
 //---------------------------------------------------------------------
 
-// function leaveRoomButton() {
-//   const leaveButton = document.getElementById("leaveButton");
+function UpdateUserList(users) {
+  const userRoomList = document.getElementById("userList");
 
-//   leaveButton
-// }
+  let userList = users.map((user) => {
+    return user.username;
+  });
+
+  let stringUsers = userList.join(" | ");
+
+  userRoomList.innerHTML = stringUsers;
+}

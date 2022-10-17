@@ -1,17 +1,14 @@
 
+    <link rel="stylesheet" href="/css/chat.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <input id="username" type="hidden" value={{encryptedUsername}}>
    
-
-    <div id="chatBox" name="chatBox"> <!-- Va a variar entre la lista de rooms y el chat de una room -->
+    <div id="chatBox" name="chatBox" class="roomsList"> <!-- Va a variar entre la lista de rooms y el chat de una room -->
      
     </div>
-
-    Estas en el chat
-    <a href="index.html">Volver</a>
     
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/sockets.js"></script>
     <script src="/js/chatViews.js"></script>
     <script src="/js/ui.js"></script>
-    

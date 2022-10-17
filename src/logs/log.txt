@@ -22,3 +22,1215 @@ Achuapanqui:
      asdasdasdasdasd
 - 1665964466511 | asd
 
+Server: 
+     Achuapanqui has joined the room
+- 1665975436669 | 
+
+Server: 
+     Achuapanqui has left the room
+- 1665975438046 | 
+
+Server: 
+     Achuapanqui has joined the room
+- 1665976046280 | asdasd
+
+Server: 
+     Achuapanqui has left the room
+- 1665976047731 | asdasd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665976106957 | 
+
+Server: 
+     Achuapanqui has left the room
+- 1665976108223 | 
+
+Server: 
+     Achuapanqui has joined the room
+- 1665976151036 | 
+
+Server: 
+     Achuapanqui has left the room
+- 1665976153213 | 
+
+Server: 
+     Achuapanqui has joined the room
+- 1665976492143 | asd123
+
+Server: 
+     Achuapanqui has left the room
+- 1665976493848 | asd123
+
+Server: 
+     Achuapanqui has joined the room
+- 1665976502015 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665978551629 | asdasdas
+
+Server: 
+     Achuapanqui has left the room
+- 1665978553062 | asdasdas
+
+Server: 
+     Achuapanqui has joined the room
+- 1665978561453 | asd123
+
+Server: 
+     Achuapanqui has joined the room
+- 1665978677113 | asd123
+
+Server: 
+     Achuapanqui has left the room
+- 1665978678194 | asd123
+
+Server: 
+     Achuapanqui has joined the room
+- 1665979168047 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665979585056 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665979587640 | asd
+
+Achuapanqui: 
+     asdasd
+- 1665979591160 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665979594865 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1665979597305 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665980222362 | 
+
+Server: 
+     Achuapanqui has left the room
+- 1665980227398 | 
+
+Server: 
+     Ciervo has joined the room
+- 1665980234977 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980267297 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980269888 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980283657 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980285927 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980302008 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980309374 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980319840 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980321926 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980411028 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980413178 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980429475 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980431817 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980486682 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980489152 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980515520 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980517855 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980625621 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980627610 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980659859 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980661883 | asd
+
+Ciervo: 
+     asd
+- 1665980669769 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980767551 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980769998 | ásd
+
+Server: 
+     Ciervo has left the room
+- 1665980847461 | ásd
+
+Server: 
+     Ciervo has joined the room
+- 1665980849395 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980879551 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980882067 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665980977056 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665980979366 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981038721 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981041292 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981085860 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981088842 | asda
+
+Server: 
+     Ciervo has left the room
+- 1665981107051 | asda
+
+Server: 
+     Ciervo has joined the room
+- 1665981119137 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981125578 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981127761 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981171721 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981173615 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981179936 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981182407 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981195087 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981197270 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981204135 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981206221 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981212335 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981214125 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981221639 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981223541 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981229990 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981231853 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981696893 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981734948 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981754941 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981757114 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981773339 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981775761 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665981809074 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665981811280 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982070665 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982072783 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982162649 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982165044 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982173477 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982175620 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982187159 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982189971 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982210582 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982213922 | asd123
+
+Server: 
+     Ciervo has left the room
+- 1665982240556 | asd123
+
+Server: 
+     Ciervo has joined the room
+- 1665982243537 | sda
+
+Server: 
+     Ciervo has left the room
+- 1665982272235 | sda
+
+Server: 
+     Ciervo has joined the room
+- 1665982274656 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982312152 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982314455 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982356327 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982358509 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982430789 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982433227 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982658090 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982660266 | sad
+
+Server: 
+     Ciervo has left the room
+- 1665982676259 | sad
+
+Server: 
+     Ciervo has joined the room
+- 1665982678561 | sad
+
+Server: 
+     Ciervo has left the room
+- 1665982694874 | sad
+
+Server: 
+     Ciervo has joined the room
+- 1665982696736 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982706330 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982708472 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982722649 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982724687 | sd
+
+Server: 
+     Ciervo has left the room
+- 1665982821182 | sd
+
+Server: 
+     Ciervo has joined the room
+- 1665982823596 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982832278 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982835004 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982912250 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982914633 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982955576 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982957815 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665982969720 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665982972583 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983000695 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983002990 | ASD
+
+Server: 
+     Ciervo has left the room
+- 1665983341724 | ASD
+
+Server: 
+     Ciervo has joined the room
+- 1665983343922 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983370722 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983373921 | asd123
+
+Server: 
+     Ciervo has left the room
+- 1665983410457 | asd123
+
+Server: 
+     Ciervo has joined the room
+- 1665983412719 | ASD
+
+Server: 
+     Ciervo has left the room
+- 1665983463047 | ASD
+
+Server: 
+     Ciervo has joined the room
+- 1665983464829 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983479150 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983481373 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983506253 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983508540 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983535508 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983537747 | ASD
+
+Server: 
+     Ciervo has left the room
+- 1665983547532 | ASD
+
+Server: 
+     Ciervo has joined the room
+- 1665983549770 | ASD
+
+Server: 
+     Ciervo has left the room
+- 1665983597546 | ASD
+
+Server: 
+     Ciervo has joined the room
+- 1665983599672 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983675991 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983678221 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983689039 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983691053 | asd
+
+Ciervo: 
+     asdasda
+- 1665983697741 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983704884 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983705108 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983705284 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983705452 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983705628 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983705780 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983705948 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983706116 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983706292 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983706468 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983706644 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983706828 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983707012 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983707212 | asd
+
+Ciervo: 
+     asdasdaasdasd
+- 1665983707516 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983737573 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983739875 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983743195 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983743379 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983743555 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983743731 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983743891 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983744067 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983744235 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983744419 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983744595 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983744771 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983744955 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983745139 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983745323 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983745515 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983745699 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983745883 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983746059 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983746251 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983746428 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983746620 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983746795 | sad
+
+Ciervo: 
+     asdasdaasd
+- 1665983746955 | sad
+
+Server: 
+     Ciervo has left the room
+- 1665983751084 | sad
+
+Server: 
+     Ciervo has joined the room
+- 1665983752803 | sad
+
+Ciervo: 
+     XD
+- 1665983756187 | sad
+
+Server: 
+     Ciervo has left the room
+- 1665983757315 | sad
+
+Server: 
+     Ciervo has joined the room
+- 1665983787970 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983900511 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983902637 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665983922406 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665983924740 | AASD
+
+Server: 
+     Ciervo has left the room
+- 1665983935901 | AASD
+
+Server: 
+     Ciervo has joined the room
+- 1665983938956 | asd123
+
+Server: 
+     Ciervo has left the room
+- 1665983987475 | asd123
+
+Server: 
+     Ciervo has joined the room
+- 1665983989706 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984014538 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984017033 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984022770 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984025033 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984044889 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984047400 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984066273 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984069536 | asd123
+
+Server: 
+     Ciervo has left the room
+- 1665984113087 | asd123
+
+Server: 
+     Ciervo has joined the room
+- 1665984115078 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984122015 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984124198 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984137568 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984139653 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984156190 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984158852 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984169957 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984172052 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984220849 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984222921 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984234074 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984235905 | asd
+
+Ciervo: 
+     asd
+- 1665984253417 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984265105 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984267168 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984295488 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984297423 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984306240 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984308006 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984316103 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984317806 | sd
+
+Server: 
+     Ciervo has left the room
+- 1665984328007 | sd
+
+Server: 
+     Ciervo has joined the room
+- 1665984330389 | qasd
+
+Server: 
+     Ciervo has left the room
+- 1665984341239 | qasd
+
+Server: 
+     Ciervo has joined the room
+- 1665984343117 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984450356 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984452306 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984470250 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984471857 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984478962 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984480672 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984493545 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984495072 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984584263 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984586349 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984594822 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984596708 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984609237 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984610940 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984633564 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984635539 | asd
+
+Ciervo: 
+     asdasd
+- 1665984723585 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984807319 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984809325 | asd
+
+Ciervo: 
+     asdasd
+- 1665984811653 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984822062 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984823836 | asd
+
+Ciervo: 
+     asdasd
+- 1665984825852 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984834662 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984836364 | asd
+
+Ciervo: 
+     asdsadsad
+- 1665984839308 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984878308 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984880002 | asd
+
+Ciervo: 
+     sadasd
+- 1665984882314 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665984941357 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665984943592 | asd
+
+Ciervo: 
+     asdasd
+- 1665984947088 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665985176393 | asd
+
+Ciervo: 
+     asdasd
+- 1665985181248 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665985214256 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665985215943 | asd
+
+Ciervo: 
+     asdasd
+- 1665985217767 | asd
+
+Ciervo: 
+     Holaaa
+- 1665985228558 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665985230767 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665985233318 | asd123
+
+Ciervo: 
+     XD
+- 1665985235750 | asd123
+
+Server: 
+     Ciervo has left the room
+- 1665985239255 | asd123
+
+Server: 
+     Ciervo has joined the room
+- 1665985278964 | asd
+
+Ciervo: 
+     asdasdas
+- 1665985281500 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665985284876 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665985585217 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665985596445 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665985605432 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1665985662240 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665985669670 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665985719509 | asd
+
+Achuapanqui: 
+     asdsad
+- 1665985721556 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665985838800 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665986120086 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665986169221 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665986268537 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665986274097 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665986320351 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665986330295 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665986343846 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1665986383078 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1665986385244 | asd
+
+Server: 
+     Ciervo has joined the room
+- 1665986391252 | asd
+
+Server: 
+     Ciervo has left the room
+- 1665986397236 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1665986401892 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1666006378727 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1666006384728 | asd
+
