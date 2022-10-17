@@ -16,9 +16,9 @@ function chatBoxView() {
     
     <input id="messageText" type="textbox" style="vertical-align: bottom; bottom: 0; width:80%; margin-left: 10px"></input>
     
-    <a id="newMessage" class="waves-effect waves-light btn" style="display: inline-block; margin-left: 10px">Send</a>
+    <a id="newMessage" class="waves-effect waves-light btn purple lighten-1" style="display: inline-block; margin-left: 10px;">Send</a>
 
-    <a id="leaveRoom" class="waves-effect waves-light btn" style="display: inline-block;">Leave Room</a>
+    <a id="leaveRoom" class="waves-effect waves-light btn purple darken-3" style="display: inline-block;">Leave Room</a>
 
     </div>
     

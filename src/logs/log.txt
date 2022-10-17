@@ -1246,3 +1246,31 @@ Server:
      Achuapanqui has joined the room
 - 1666011475507 | asd
 
+Server: 
+     Achuapanqui has left the room
+- 1666011591131 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1666011593338 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1666011609795 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1666011612072 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1666011641423 | asd
+
+Server: 
+     Achuapanqui has joined the room
+- 1666011643718 | asd
+
+Server: 
+     Achuapanqui has left the room
+- 1666011652966 | asd
+
